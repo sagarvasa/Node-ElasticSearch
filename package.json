@@ -1,0 +1,36 @@
+{
+  "name": "node-elasticsearch",
+  "version": "1.0.0",
+  "description": "A basic overview of node elasticsearch integration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarvasa/Node-ElasticSearch.git"
+  },
+  "keywords": [
+    "Node",
+    "Elasticsearch"
+  ],
+  "author": "Sagar Vasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagarvasa/Node-ElasticSearch/issues"
+  },
+  "homepage": "https://github.com/sagarvasa/Node-ElasticSearch#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1",
+    "shortid": "^2.2.15",
+    "util": "^0.12.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
