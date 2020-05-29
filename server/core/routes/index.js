@@ -9,6 +9,15 @@ const router = (app) => {
 
     app.route("/elastic/ping")
         .get(controllers.search.ping)
+    
+    app.route("/refresh")
+        .post(controllers.search.refresh_index)
+    
+    app.route("/insert")
+        .post(controllers.search.insert_data)
+
+    app.route("/search")
+        .get(controllers.search.search_data)
 }
 
 
