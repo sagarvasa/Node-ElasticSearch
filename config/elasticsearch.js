@@ -5,7 +5,7 @@ const config = {
         min_keyword: 3
     },
     staging: {
-        host: "https://es_staging_server.amazonaws.com",
+        host: "https://es_staging_server.amazonaws.com", //replace this with actual host
         requestTimeout: 2000,
         min_keyword: 3
     },
