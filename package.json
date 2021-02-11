@@ -22,16 +22,16 @@
   },
   "homepage": "https://github.com/sagarvasa/Node-ElasticSearch#readme",
   "dependencies": {
-    "@elastic/elasticsearch": "^7.7.1",
-    "array.prototype.flatmap": "^1.2.3",
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "elasticsearch": "^16.7.1",
-    "express": "^4.17.1",
-    "lodash": "^4.17.19",
-    "shortid": "^2.2.15",
-    "util": "^0.12.3",
-    "winston": "^3.2.1"
+    "@elastic/elasticsearch": "7.7.1",
+    "array.prototype.flatmap": "1.2.3",
+    "body-parser": "1.19.0",
+    "dotenv": "8.2.0",
+    "elasticsearch": "16.7.1",
+    "express": "4.17.1",
+    "lodash": "4.17.19",
+    "shortid": "2.2.15",
+    "util": "0.12.3",
+    "winston": "3.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
